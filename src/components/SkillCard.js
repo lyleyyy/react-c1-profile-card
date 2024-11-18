@@ -1,13 +1,10 @@
 import "./SkillCard.css";
 
-function SkillCard(props) {
-  const { skillName, emoji, bgColor } = props;
-  const style = { backgroundColor: bgColor };
-
+function SkillCard({ skillName, emoji, bgColor }) {
   return (
-    <div className="skill-card" style={style}>
+    <span className="skill-card" style={{ backgroundColor: bgColor }}>
       {skillName} {emoji}
-    </div>
+    </span>
   );
 }
 
