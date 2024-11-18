@@ -1,0 +1,10 @@
+.skill-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: fit-content;
+  font-weight: 600;
+  padding: 2px 10px;
+  border-radius: 5px;
+}
